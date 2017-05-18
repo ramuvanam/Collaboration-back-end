@@ -115,5 +115,5 @@ public class BlogController {
 		}
 		UserBlog userblog = service.getBlogByID(blgid);
 		return new ResponseEntity<UserBlog>(userblog, HttpStatus.OK);
-	}	
+	}		
 }
